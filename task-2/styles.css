@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: calibri, sans-serif;
+}
+
+.feedback-form {
+    width: 100%;
+    height: 300px;
+}
+
+.feedback-form, form, article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+input, textarea, button, article {
+    width: 300px;
+    border: 1px solid darkgrey;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.feedback-grid {
+    width: 90%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px auto;
+}
+
+article {
+    height: max-content;
+    gap: 5px;
+
+}
+
+article > p {
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
+    text-align: justify;
+    overflow-y: scroll;
+    word-break: break-all;
+}
+
+article > h4 {
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+article > h3, h4 {
+    word-break: break-all;
+    text-align: center;
+}
